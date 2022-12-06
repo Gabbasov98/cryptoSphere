@@ -1,0 +1,670 @@
+<!DOCTYPE html> <html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Главная</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+    <div class="header__inner">
+        <div class="header__left">
+            <a href="index.html" class="header__logo logo">
+                <img src="img/logo.svg" alt="">
+            </a>
+            <div
+                class="header__status body-text2"
+                style="background: #2E8A71;"
+            >
+                Online
+            </div>
+        </div>
+        <button class="burger mbtn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="header__mob-wrap">
+            <div class="header__mob">
+            <nav class="nav">
+                <a href="" class="nav__link">Обмен</a>
+                <a href="" class="nav__link">FAQ</a>
+                <a href="" class="nav__link">Отзывы</a>
+                <a href="" class="nav__link">Контакты</a>
+            </nav>
+
+            <div class="lang body-text2">
+    <div class="lang__show">
+        <span>Ру</span>
+        <img src="img/arrowDown.svg" alt="">
+    </div>
+    <div class="lang__hidden">
+        <a href="" class="lang__item lang__item--active">Ru</a>
+        <a href="" class="lang__item">Eng</a>
+    </div>
+</div>
+
+
+            <a href="" class="header__lk">
+                <i class="header__lk-icon">
+                    <img src="img/profile.svg" alt="">
+                </i>
+                <span class="header__lk-title">Кабинет</span>
+            </a>
+        </div>
+        </div>
+    </div>
+</div>
+
+        </header>
+        <main class="content">
+
+            <section class="main page-block">
+                <div class="container">
+                    <h1 class="main__title display1">Обмен Bitcoin BTC на Сбербанк RUB</h1>
+
+                    <div class="main__wrap">
+                        <main class="main__content">
+                            <div
+                                class="exchange"
+                                data-exchange-type="sell"
+                            >
+                                <div class="exchange__top">
+                                    <fieldset class="exchange__input fg">
+                                            <label>Вы отдаете:</label>
+                                            <input type="text" placeholder="Введите сумму">
+                                            <div class="exchange__input-icon">
+                                                <img src="" alt="">
+                                            </div>
+                                        </fieldset>
+                                    <fieldset class="exchange__select fg">
+                                        <input readonly type="text" placeholder="Введите сумму">
+                                        <div class="exchange__input-icon">
+                                            <img src="" alt="">
+                                        </div>
+                                    </fieldset>
+                                    <div class="exchange__hint">
+                                            <p class="exchange__hint-item body-text">
+                                                min.:
+                                                <span class="currency-min">0.0292</span>
+                                                <span class="currency-item">BTC</span>
+                                            </p>
+                                            <p class="exchange__hint-item body-text">
+                                                max.:
+                                                <span class="currency-max">4.8724</span>
+                                                <span class="currency-item">BTC</span>
+                                            </p>
+                                        </div>
+                                </div>
+                                <div class="exchange__bottom">
+                                    <div class="exchange__items">
+    <div class="exchange__item">
+        <input
+            type="radio" name="sell" checked
+            data-min="1"
+            data-max="10"
+            data-currency="USDT"
+            data-img-src="img/currency.svg"
+        >
+        <label>
+            <i>
+                <img src="img/currency.svg" alt="">
+            </i>
+            <span>Tether USDT</span>
+        </label>
+    </div>
+    <div class="exchange__item">
+        <input
+                type="radio" name="sell"
+                data-min="2"
+                data-max="20"
+                data-currency="ETH"
+                data-img-src="img/currency2.svg"
+        >
+        <label>
+            <i>
+                <img src="img/currency2.svg" alt="">
+            </i>
+            <span>Ethereum</span>
+        </label>
+    </div>
+    <div class="exchange__item">
+        <input
+                type="radio" name="sell"
+                data-min="0.0292"
+                data-max="4.8724"
+                data-currency="BTC"
+                data-img-src="img/currency3.svg"
+        >
+        <label>
+            <i>
+                <img src="img/currency3.svg" alt="">
+            </i>
+            <span>Bitcoin</span>
+        </label>
+    </div>
+    <div class="exchange__item">
+        <input
+                type="radio" name="sell"
+                data-min="3"
+                data-max="30"
+                data-currency="LTC"
+                data-img-src="img/currency4.svg"
+        >
+        <label>
+            <i>
+                <img src="img/currency4.svg" alt="">
+            </i>
+            <span>Litecoin</span>
+        </label>
+    </div>
+    <div class="exchange__item">
+        <input
+                type="radio" name="sell"
+                data-min="4"
+                data-max="40"
+                data-currency="RUB"
+                data-img-src="img/currency5.svg"
+        >
+        <label>
+            <i>
+                <img src="img/currency5.svg" alt="">
+            </i>
+            <span>Наличные ₽</span>
+        </label>
+    </div>
+    <div class="exchange__item">
+        <input
+                type="radio" name="sell"
+                data-min="5"
+                data-max="50"
+                data-currency="USD"
+                data-img-src="img/currency6.svg"
+        >
+        <label>
+            <i>
+                <img src="img/currency6.svg" alt="">
+            </i>
+            <span>Наличные $</span>
+        </label>
+    </div>
+    <div class="exchange__item">
+        <input
+                type="radio" name="sell"
+                data-min="6"
+                data-max="60"
+                data-currency="RUB(Золотая корона)"
+                data-img-src="img/currency7.svg"
+        >
+        <label>
+            <i>
+                <img src="img/currency7.svg" alt="">
+            </i>
+            <span>Золотая корона ₽</span>
+        </label>
+    </div>
+    <div class="exchange__item">
+        <input
+                type="radio" name="sell"
+                data-min="7"
+                data-max="70"
+                data-currency="USD(Золотая корона)"
+                data-img-src="img/currency8.svg"
+        >
+        <label>
+            <i>
+                <img src="img/currency8.svg" alt="">
+            </i>
+            <span>Золотая корона $</span>
+        </label>
+    </div>
+    <div class="exchange__item">
+        <input
+                type="radio" name="sell"
+                data-min="8"
+                data-max="80"
+                data-currency="RUB(Сбербанк)"
+                data-img-src="img/currency9.svg"
+        >
+        <label>
+            <i>
+                <img src="img/currency9.svg" alt="">
+            </i>
+            <span>Перевод Сбербанк</span>
+        </label>
+    </div>
+    <div class="exchange__item">
+        <input
+                type="radio" name="sell"
+                data-min="9"
+                data-max="90"
+                data-currency="RUB(Альфа)"
+                data-img-src="img/currency10.svg"
+        >
+        <label>
+            <i>
+                <img src="img/currency10.svg" alt="">
+            </i>
+            <span>Перевод Альфа</span>
+        </label>
+    </div>
+    <div class="exchange__item">
+        <input
+                type="radio" name="sell"
+                data-min="10"
+                data-max="100"
+                data-currency="RUB(ВТБ)"
+                data-img-src="img/currency11.svg"
+        >
+        <label>
+            <i>
+                <img src="img/currency11.svg" alt="">
+            </i>
+            <span>Перевод ВТБ</span>
+        </label>
+    </div>
+    <div class="exchange__item">
+        <input
+                type="radio" name="sell"
+                data-min="11"
+                data-max="110"
+                data-currency="RUB(Тинькофф)"
+                data-img-src="img/currency12.svg"
+        >
+        <label>
+            <i>
+                <img src="img/currency12.svg" alt="">
+            </i>
+            <span>Перевод Тинькофф</span>
+        </label>
+    </div>
+    <div class="exchange__item">
+        <input
+                type="radio" name="sell"
+                data-min="12"
+                data-max="120"
+                data-currency="RUB(Райфайзен)"
+                data-img-src="img/currency13.svg"
+        >
+        <label>
+            <i>
+                <img src="img/currency13.svg" alt="">
+            </i>
+            <span>Перевод Райфайзен</span>
+        </label>
+    </div>
+    <div class="exchange__item">
+        <input
+                type="radio" name="sell"
+                data-min="13"
+                data-max="130"
+                data-currency="RUB(QIWI)"
+                data-img-src="img/currency14.svg"
+        >
+        <label>
+            <i>
+                <img src="img/currency14.svg" alt="">
+            </i>
+            <span>Киви кошелек</span>
+        </label>
+    </div>
+    <div class="exchange__item">
+        <input
+                type="radio" name="sell"
+                data-min="14"
+                data-max="140"
+                data-currency="Юмани"
+                data-img-src="img/currency15.svg"
+        >
+        <label>
+            <i>
+                <img src="img/currency15.svg" alt="">
+            </i>
+            <span>Юмани кошелек</span>
+        </label>
+    </div>
+</div>
+
+                                </div>
+                            </div>
+                            <div
+                                    class="exchange"
+                                    data-exchange-type="buy"
+                            >
+                                <div class="exchange__top">
+                                    <fieldset class="exchange__input fg">
+                                            <label>Вы отдаете:</label>
+                                            <input type="text" placeholder="Введите сумму">
+                                            <div class="exchange__input-icon">
+                                                <img src="" alt="">
+                                            </div>
+                                        </fieldset>
+                                    <fieldset class="exchange__select fg">
+                                        <input readonly type="text" placeholder="Введите сумму">
+                                        <div class="exchange__input-icon">
+                                            <img src="" alt="">
+                                        </div>
+                                    </fieldset>
+                                    <div class="exchange__hint">
+                                            <p class="exchange__hint-item body-text">
+                                                min.:
+                                                <span class="currency-min">0.0292</span>
+                                                <span class="currency-item">BTC</span>
+                                            </p>
+                                            <p class="exchange__hint-item body-text">
+                                                max.:
+                                                <span class="currency-max">4.8724</span>
+                                                <span class="currency-item">BTC</span>
+                                            </p>
+                                            <p class="exchange__hint-item body-text">
+                                                Курс обмена: 1 BTC = 1009733 ₽
+                                            </p>
+                                        </div>
+                                </div>
+                                <div class="exchange__bottom">
+                                    <div class="exchange__items">
+    <div class="exchange__item">
+        <input
+                type="radio" name="buy"
+                data-min="1"
+                data-max="10"
+                data-currency="USDT"
+                data-img-src="img/currency.svg"
+        >
+        <label>
+            <i>
+                <img src="img/currency.svg" alt="">
+            </i>
+            <span>Tether USDT</span>
+        </label>
+    </div>
+    <div class="exchange__item">
+        <input
+                type="radio" name="buy"
+                data-min="2"
+                data-max="20"
+                data-currency="ETH"
+                data-img-src="img/currency2.svg"
+        >
+        <label>
+            <i>
+                <img src="img/currency2.svg" alt="">
+            </i>
+            <span>Ethereum</span>
+        </label>
+    </div>
+    <div class="exchange__item">
+        <input
+                type="radio" name="buy"
+                data-min="0.0292"
+                data-max="4.8724"
+                data-currency="BTC"
+                data-img-src="img/currency3.svg"
+        >
+        <label>
+            <i>
+                <img src="img/currency3.svg" alt="">
+            </i>
+            <span>Bitcoin</span>
+        </label>
+    </div>
+    <div class="exchange__item">
+        <input
+                type="radio" name="buy"
+                data-min="3"
+                data-max="30"
+                data-currency="LTC"
+                data-img-src="img/currency4.svg"
+        >
+        <label>
+            <i>
+                <img src="img/currency4.svg" alt="">
+            </i>
+            <span>Litecoin</span>
+        </label>
+    </div>
+    <div class="exchange__item">
+        <input
+                type="radio" name="buy"
+                data-min="4"
+                data-max="40"
+                data-currency="RUB"
+                data-img-src="img/currency5.svg"
+        >
+        <label>
+            <i>
+                <img src="img/currency5.svg" alt="">
+            </i>
+            <span>Наличные ₽</span>
+        </label>
+    </div>
+    <div class="exchange__item">
+        <input
+                type="radio" name="buy"
+                data-min="5"
+                data-max="50"
+                data-currency="USD"
+                data-img-src="img/currency6.svg"
+        >
+        <label>
+            <i>
+                <img src="img/currency6.svg" alt="">
+            </i>
+            <span>Наличные $</span>
+        </label>
+    </div>
+    <div class="exchange__item">
+        <input
+                type="radio" name="buy"
+                data-min="6"
+                data-max="60"
+                data-currency="RUB(Золотая корона)"
+                data-img-src="img/currency7.svg"
+        >
+        <label>
+            <i>
+                <img src="img/currency7.svg" alt="">
+            </i>
+            <span>Золотая корона ₽</span>
+        </label>
+    </div>
+    <div class="exchange__item">
+        <input
+                type="radio" name="buy"
+                data-min="7"
+                data-max="70"
+                data-currency="USD(Золотая корона)"
+                data-img-src="img/currency8.svg"
+        >
+        <label>
+            <i>
+                <img src="img/currency8.svg" alt="">
+            </i>
+            <span>Золотая корона $</span>
+        </label>
+    </div>
+    <div class="exchange__item">
+        <input
+                type="radio" name="buy" checked
+                data-min="8"
+                data-max="80"
+                data-currency="RUB(Сбербанк)"
+                data-img-src="img/currency9.svg"
+        >
+        <label>
+            <i>
+                <img src="img/currency9.svg" alt="">
+            </i>
+            <span>Перевод Сбербанк</span>
+        </label>
+    </div>
+    <div class="exchange__item">
+        <input
+                type="radio" name="buy"
+                data-min="9"
+                data-max="90"
+                data-currency="RUB(Альфа)"
+                data-img-src="img/currency10.svg"
+        >
+        <label>
+            <i>
+                <img src="img/currency10.svg" alt="">
+            </i>
+            <span>Перевод Альфа</span>
+        </label>
+    </div>
+    <div class="exchange__item">
+        <input
+                type="radio" name="buy"
+                data-min="10"
+                data-max="100"
+                data-currency="RUB(ВТБ)"
+                data-img-src="img/currency11.svg"
+        >
+        <label>
+            <i>
+                <img src="img/currency11.svg" alt="">
+            </i>
+            <span>Перевод ВТБ</span>
+        </label>
+    </div>
+    <div class="exchange__item">
+        <input
+                type="radio" name="buy"
+                data-min="11"
+                data-max="110"
+                data-currency="RUB(Тинькофф)"
+                data-img-src="img/currency12.svg"
+        >
+        <label>
+            <i>
+                <img src="img/currency12.svg" alt="">
+            </i>
+            <span>Перевод Тинькофф</span>
+        </label>
+    </div>
+    <div class="exchange__item">
+        <input
+                type="radio" name="buy"
+                data-min="12"
+                data-max="120"
+                data-currency="RUB(Райфайзен)"
+                data-img-src="img/currency13.svg"
+        >
+        <label>
+            <i>
+                <img src="img/currency13.svg" alt="">
+            </i>
+            <span>Перевод Райфайзен</span>
+        </label>
+    </div>
+    <div class="exchange__item">
+        <input
+                type="radio" name="buy"
+                data-min="13"
+                data-max="130"
+                data-currency="RUB(QIWI)"
+                data-img-src="img/currency14.svg"
+        >
+        <label>
+            <i>
+                <img src="img/currency14.svg" alt="">
+            </i>
+            <span>Киви кошелек</span>
+        </label>
+    </div>
+    <div class="exchange__item">
+        <input
+                type="radio" name="buy"
+                data-min="14"
+                data-max="140"
+                data-currency="Юмани"
+                data-img-src="img/currency15.svg"
+        >
+        <label>
+            <i>
+                <img src="img/currency15.svg" alt="">
+            </i>
+            <span>Юмани кошелек</span>
+        </label>
+    </div>
+</div>
+
+                                </div>
+                            </div>
+                        </main>
+                        <aside class="main__sidebar">
+                            <form class="main-form">
+                                <h3 class="main-form__title display2">Перевод на карту</h3>
+                                <fieldset class="fg">
+                                    <label>На карту*:</label>
+                                    <input type="text" class="card-input">
+                                </fieldset>
+                                <fieldset class="fg">
+                                    <label>Email*:</label>
+                                    <input type="email">
+                                </fieldset>
+                                <button class="main-form__btn m-btn mbtn-accent">Обменять</button>
+                                <div class="main-form__check m-check">
+                                    <input checked type="checkbox">
+                                    <label>
+                                        <span>
+                                            Я прочитал и согласен с
+                                            <a href="">условиями</a>
+                                        </span>
+                                    </label>
+                                </div>
+                                <div class="main-form__check m-check">
+                                        <input type="checkbox">
+                                        <label>Не запоминать введенные данные</label>
+                                    </div>
+                            </form>
+
+                            <div class="condition">
+                                <h3 class="condition__title display2">Условия обмена</h3>
+                                <div class="condition__desc body-text">
+                                    <p>Заявка обрабатывается оператором в ручном режиме.</p>
+                                    <p>Время работы оператора:  Пн-Вс 10:00-22:00 по Мск.</p>
+                                    <p>Курс не фиксируется на момент создания заявки, а пересчитывается после получения первого подтверждения.</p>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <footer class="footer">
+            <div class="container">
+    <div class="footer__inner">
+        <a href="index.html" class="footer__logo logo hide-mob">
+            <img src="img/logo.svg" alt="">
+        </a>
+        <nav class="footer__nav">
+            <a href="" class="footer__nav-link hide-mob">Обмен</a>
+            <a href="" class="footer__nav-link hide-mob">Бонусы</a>
+            <a href="" class="footer__nav-link hide-mob">FAQ</a>
+            <a href="" class="footer__nav-link hide-mob">Отзывы</a>
+            <a href="" class="footer__nav-link hide-mob">Помощь</a>
+            <a href="" class="footer__nav-link">Правила обмена</a>
+            <a href="" class="footer__nav-link">Политика KYC/AML</a>
+        </nav>
+    </div>
+</div>
+
+        </footer>
+    </div>
+
+    <script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+
+</body>
+
+</html>
