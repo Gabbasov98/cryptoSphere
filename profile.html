@@ -46,6 +46,157 @@
                 </a>
             </div>
             <h1 class="profile__title display1">Ваши операции</h1>
+            <div class="profile-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Дата</th>
+                            <th>Курс</th>
+                            <th>Вы отдаете</th>
+                            <th>Вы получаете</th>
+                            <th>Статус</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="body-text">
+    <td>
+        <span class="profile-table__title">ID: </span>
+        <span class="profile-table__desc">123123890765</span>
+    </td>
+    <td>
+        <span class="profile-table__title">Дата: </span>
+        <span class="profile-table__desc">13.11.2022</span>
+    </td>
+    <td>
+        <span class="profile-table__title">По курсу: </span>
+        <span class="profile-table__desc">1 BTC = 1009733 ₽ </span>
+    </td>
+    <td>
+        <div class="profile-table__sum">
+            <i class="profile-table__sum-icon">
+                <img src="img/currency3.svg" alt="">
+            </i>
+            <div class="profile-table__sum-content">
+                <span class="profile-table__sum-title body-text">0.01987</span>
+                <span class="profile-table__sum-desc body-text2">Отдали</span>
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="profile-table__sum">
+            <i class="profile-table__sum-icon">
+                <img src="img/currency3.svg" alt="">
+            </i>
+            <div class="profile-table__sum-content">
+                <span class="profile-table__sum-title body-text">0.01987</span>
+                <span class="profile-table__sum-desc body-text2">Получили</span>
+            </div>
+        </div>
+    </td>
+    <td>
+        <span
+            class="profile-table__status body-text2"
+            style="background: #F7931A;"
+        >
+            В обработке
+        </span>
+    </td>
+</tr>
+
+                        <tr class="body-text">
+    <td>
+        <span class="profile-table__title">ID: </span>
+        <span class="profile-table__desc">123123890765</span>
+    </td>
+    <td>
+        <span class="profile-table__title">Дата: </span>
+        <span class="profile-table__desc">13.11.2022</span>
+    </td>
+    <td>
+        <span class="profile-table__title">По курсу: </span>
+        <span class="profile-table__desc">1 BTC = 1009733 ₽ </span>
+    </td>
+    <td>
+        <div class="profile-table__sum">
+            <i class="profile-table__sum-icon">
+                <img src="img/currency9.svg" alt="">
+            </i>
+            <div class="profile-table__sum-content">
+                <span class="profile-table__sum-title body-text">1000</span>
+                <span class="profile-table__sum-desc body-text2">Отдали</span>
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="profile-table__sum">
+            <i class="profile-table__sum-icon">
+                <img src="img/currency9.svg" alt="">
+            </i>
+            <div class="profile-table__sum-content">
+                <span class="profile-table__sum-title body-text">1000</span>
+                <span class="profile-table__sum-desc body-text2">Получили</span>
+            </div>
+        </div>
+    </td>
+    <td>
+        <span
+            class="profile-table__status body-text2"
+            style="background: #2E8A71;"
+        >
+            Завершен
+        </span>
+    </td>
+</tr>
+
+                        <tr class="body-text">
+    <td>
+        <span class="profile-table__title">ID: </span>
+        <span class="profile-table__desc">123123890765</span>
+    </td>
+    <td>
+        <span class="profile-table__title">Дата: </span>
+        <span class="profile-table__desc">13.11.2022</span>
+    </td>
+    <td>
+        <span class="profile-table__title">По курсу: </span>
+        <span class="profile-table__desc">1 BTC = 1009733 ₽ </span>
+    </td>
+    <td>
+        <div class="profile-table__sum">
+            <i class="profile-table__sum-icon">
+                <img src="img/currency12.svg" alt="">
+            </i>
+            <div class="profile-table__sum-content">
+                <span class="profile-table__sum-title body-text">345</span>
+                <span class="profile-table__sum-desc body-text2">Отдали</span>
+            </div>
+        </div>
+    </td>
+    <td>
+        <div class="profile-table__sum">
+            <i class="profile-table__sum-icon">
+                <img src="img/currency12.svg" alt="">
+            </i>
+            <div class="profile-table__sum-content">
+                <span class="profile-table__sum-title body-text">345</span>
+                <span class="profile-table__sum-desc body-text2">Получили</span>
+            </div>
+        </div>
+    </td>
+    <td>
+        <span
+            class="profile-table__status body-text2"
+            style="background: #2E8A71;"
+        >
+            Завершен
+        </span>
+    </td>
+</tr>
+
+                    </tbody>
+                </table>
+            </div>
         </div>
         <div class="profile-sidebar">
             <div class="profile-sidebar__top">
@@ -55,7 +206,7 @@
                             <i class="header__lk-icon">
                                 <img src="img/profile.svg" alt="">
                             </i>
-                            <span class="header__lk-title">Кабинет</span>
+                            <span class="header__lk-title">Не верифицирован</span>
                         </div>
                         <a href="" class="profile-sidebar__btn m-btn mbtn-accent-outline">Проити верификацию</a>
                         <div class="profile-sidebar__info">
@@ -72,27 +223,32 @@
 </div>
 
                         </div>
+                        <button class="burger mbtn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
                     </div>
                 </div>
             </div>
-            <div class="profile-sidebar__bottom">
-                <div class="container">
+            <div class="profile-sidebar__bottom-wrap">
+                <div class="profile-sidebar__bottom">
                     <div class="profile-sidebar__links">
-                        <a href="" class="profile-sidebar__link">Личный кабинет</a>
-                        <a href="" class="profile-sidebar__link">Настройки безопасности</a>
-                        <a href="" class="profile-sidebar__link">Ваши счета</a>
-                        <a href="" class="profile-sidebar__link">Ваши операции</a>
-                        <a href="" class="profile-sidebar__link">TXT-файл курсов</a>
-                        <a href="" class="profile-sidebar__link">XML-файл курсов</a>
-                        <a href="" class="profile-sidebar__link">JSON-файл курсов</a>
-                        <a href="" class="profile-sidebar__link">Партнерский аккаунт</a>
-                        <a href="" class="profile-sidebar__link">Рекламные материалы</a>
-                        <a href="" class="profile-sidebar__link">Партнерские переходы</a>
-                        <a href="" class="profile-sidebar__link">Партнерские обмены</a>
-                        <a href="" class="profile-sidebar__link">Рефералы</a>
-                        <a href="" class="profile-sidebar__link">Вывод партнерских средств</a>
-                        <a href="" class="profile-sidebar__link profile-sidebar__link--exit">Выход</a>
-                    </div>
+                            <a href="" class="profile-sidebar__link">Личный кабинет</a>
+                            <a href="" class="profile-sidebar__link">Настройки безопасности</a>
+                            <a href="" class="profile-sidebar__link">Ваши счета</a>
+                            <a href="" class="profile-sidebar__link">Ваши операции</a>
+                            <a href="" class="profile-sidebar__link">TXT-файл курсов</a>
+                            <a href="" class="profile-sidebar__link">XML-файл курсов</a>
+                            <a href="" class="profile-sidebar__link">JSON-файл курсов</a>
+                            <a href="" class="profile-sidebar__link">Партнерский аккаунт</a>
+                            <a href="" class="profile-sidebar__link">Рекламные материалы</a>
+                            <a href="" class="profile-sidebar__link">Партнерские переходы</a>
+                            <a href="" class="profile-sidebar__link">Партнерские обмены</a>
+                            <a href="" class="profile-sidebar__link">Рефералы</a>
+                            <a href="" class="profile-sidebar__link">Вывод партнерских средств</a>
+                            <a href="" class="profile-sidebar__link profile-sidebar__link--exit">Выход</a>
+                        </div>
                 </div>
             </div>
         </div>

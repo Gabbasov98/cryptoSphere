@@ -16,11 +16,12 @@
         font-size: 30px;
         text-transform: capitalize;
     }
-    
+
     .wrapper button {
         margin-bottom: 25px;
         width: 300px;
         height: 45px;
+        color: #fff;
     }
 </style>
 
@@ -30,31 +31,65 @@
         <a href="index.html" style="display: block; margin-bottom: 20px;">
             Главная
         </a>
+        <a href="profile.html" style="display: block; margin-bottom: 20px;">
+            Профиль
+        </a>
+        <a href="request.html" style="display: block; margin-bottom: 20px;">
+            Заявка
+        </a>
+        <a href="contacts.html" style="display: block; margin-bottom: 20px;">
+            Обратная связь
+        </a>
+        <a href="testimotional.html" style="display: block; margin-bottom: 20px;">
+            Отзывы
+        </a>
+        <a href="article.html" style="display: block; margin-bottom: 20px;">
+            Статья
+        </a>
 
 
 
 
-        <button style="border: 2px solid #000;margin-bottom: 20px;" data-bs-toggle="modal" data-bs-target="#quickOrder">
-            Быстрый заказ
+        <button style="border: 2px solid #fff;margin-bottom: 20px;" data-modal="loginModal">
+            Войти
         </button>
 
     </div>
 
-    <div class="modal" id="quickOrder" aria-hidden="true">
-    <div class="modal-dialog">
-        <button type="button" class="modal__close" data-bs-dismiss="modal" aria-label="Close">
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.55401 10.5L2 2.94599L2.94599 2L10.5 9.55401L18.054 2L19 2.94599L11.446 10.5L19 18.054L18.054 19L10.5 11.446L2.94599 19L2 18.054L9.55401 10.5Z" fill="#333333"/>
-            </svg>
-        </button>
+    <div class="modal" id="loginModal">
+    <div class="modal__dialog">
+
+        <form class="main-form main-form--request">
+    <h3 class="main-form__title display2">Войти</h3>
+    <fieldset class="fg">
+        <label>Email*:</label>
+        <input type="email">
+    </fieldset>
+    <fieldset class="fg">
+        <label>Пароль*:</label>
+        <input type="password">
+        <a href="" class="fg__link body-text2">Забыли пароль?</a>
+    </fieldset>
+    <button class="main-form__btn m-btn mbtn-accent">Войти</button>
+    <div class="main-form__hint body-text2">
+        Нет аккаунта?
+        <a href="">Зарегистрироваться</a>
+    </div>
+</form>
 
 
-
+        <div class="modal__content">
+            <a href="" class="modal__logo logo">
+                <img src="img/logo.svg" alt="">
+            </a>
+            <h2 class="modal__title">
+                Самые выгодные обменные курсы
+            </h2>
+        </div>
     </div>
 </div>
 
 
-<!-- <div class="modal-backdrop show"></div> -->
     <!--  -->
     <script src="js/libs.min.js"></script>
 <script src="js/main.min.js"></script>
