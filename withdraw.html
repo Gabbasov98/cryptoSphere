@@ -1,0 +1,656 @@
+<!DOCTYPE html> <html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Главная</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+    <div class="header__inner">
+        <div class="header__left">
+            <a href="index.html" class="header__logo logo anim-logo">
+                <img src="img/logo1.svg" alt="" class="logo__icon">
+                <img src="img/logo2.svg" alt="" class="logo__text">
+            </a>
+            <div
+                class="header__status body-text2"
+                style="background: #2E8A71;"
+            >
+                Online
+            </div>
+        </div>
+        <button class="burger mbtn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="header__mob-wrap">
+            <div class="header__mob">
+            <nav class="nav">
+                <a href="" class="nav__link">Обмен</a>
+                <a href="" class="nav__link">FAQ</a>
+                <a href="" class="nav__link">Отзывы</a>
+                <a href="" class="nav__link">Контакты</a>
+            </nav>
+
+            <div class="lang body-text2">
+    <div class="lang__show">
+        <span>Ру</span>
+        <img src="img/arrowDown.svg" alt="">
+    </div>
+    <div class="lang__hidden">
+        <a href="" class="lang__item lang__item--active">Ru</a>
+        <a href="" class="lang__item">Eng</a>
+    </div>
+</div>
+
+
+            <button data-modal="loginModal" class="header__lk">
+                <i class="header__lk-icon">
+                    <img src="img/profile.svg" alt="">
+                </i>
+                <span class="header__lk-title">Кабинет</span>
+            </button>
+        </div>
+        </div>
+    </div>
+</div>
+
+        </header>
+        <main class="content">
+
+            <section class="main page-block">
+                <div class="container">
+                    <h1 class="main__title display1">
+                        Вывод партнёрских средств
+                    </h1>
+
+
+                    <div class="main__wrap">
+
+                        <div class="lk-content">
+                            <div class="paytext">
+                                <div class="paytext_ins">
+                                    Минимальная сумма для вывода <span class="red">10 USD</span>. Все выплаты производятся после проверки администратором учетной записи. Как правило, это занимает не более 24 часов с момента подачи заявки на снятие средств.
+                                </div>
+                            </div>
+
+                            <form method="post" class="main-form ajax_post_form" action="https://cryptospherebank.exchange/premium_action-payoutform.html?meth=post&amp;yid=6309ba85cf23&amp;ynd=0&amp;lang=ru">
+                                <div class="paydiv">
+                                    <div class="paydiv_ins">
+                                        <div class="pay_left_col display2">
+                                            Кошелек
+                                        </div>
+                                        <div class="pay_center_col">
+                                            <div class="pay_select fg">
+
+                                                <select name="currency_id" id="pay_currency_id" autocomplete="off">
+                                                    <option value="0">--Нет значения--</option>
+                                                    <option value="512">0 Visa/MasterCard RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="513">0 Visa/MasterCard EUR (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="514">0 Visa/MasterCard UAH (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="515">0 Visa/MasterCard BYN (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="516">0 Visa/MasterCard KZT (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="520">0 Visa/MasterCard AMD (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="521">0 Visa/MasterCard GBP (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="522">0 Visa/MasterCard CNY (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="523">0 Visa/MasterCard TRY (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="530">0 Карта Мир RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="531">0 Карта UnionPay CNY (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="532">0 Карта UZCARD UZS (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="533">0 Карта HUMO UZS (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="534">0 Любой банк USD (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="535">0 Любой банк RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="536">0 Любой банк EUR (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="537">0 Любой банк UAH (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="538">0 Любой банк BYN (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="539">0 Любой банк KZT (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="542">0 Любой банк CNY (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="543">0 Любой банк TRY (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="550">0 Sepa EUR (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="552">0 СБП RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="554">0 Revolut USD (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="555">0 Revolut EUR (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="556">0 WU USD (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="557">0 WU EUR (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="558">0 MoneyGram USD (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="559">0 MoneyGram EUR (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="560">0 Contact USD (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="561">0 Contact RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="562">0 ЗК USD (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="563">0 ЗК RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="566">0 Ria USD (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="567">0 Ria EUR (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="568">0 Наличные USD (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="569">0 Наличные RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="570">0 Наличные EUR (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="571">0 Наличные UAH (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="572">0 Наличные BYN (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="573">0 Наличные KZT (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="575">0 Наличные AED (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="576">0 Наличные TRY (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="348">0 Bitcoin BTC (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="350">0 Bitcoin BEP20 BTCB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="352">0 Bitcoin Cash BCH (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="353">0 Bitcoin SV BSV (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="354">0 Bitcoin Gold BTG (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="355">0 Ethereum ETH (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="356">0 Ethereum BEP20 ETH (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="358">0 Ether Classic ETC (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="359">0 Litecoin LTC (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="360">0 Ripple XRP (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="361">0 Monero XMR (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="362">0 Dogecoin DOGE (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="363">0 Polygon MATIC (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="364">0 Dash DASH (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="365">0 Zcash ZEC (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="366">0 Tether Omni USDT (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="367">0 Tether ERC20 USDT (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="368">0 Tether TRC20 USDT (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="369">0 Tether BEP20 USDT (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="370">0 Tether SOL USDT (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="371">0 USDCoin ERC20 USDC (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="372">0 USDCoin TRC20 USDC (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="373">0 USDCoin SOL USDC (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="374">0 TrueUSD TUSD (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="375">0 Pax Dollar USDP (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="376">0 Dai DAI (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="377">0 Binance USD BUSD (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="378">0 TerraUSD UST (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="379">0 NEM XEM (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="380">0 NEO NEO (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="381">0 EOS EOS (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="382">0 IOTA MIOTA (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="383">0 Cardano ADA (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="384">0 Stellar XLM (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="385">0 TRON TRX (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="386">0 Waves WAVES (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="387">0 OMG Network OMG (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="388">0 Verge XVG (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="390">0 BinanceCoin BEP2 BNB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="391">0 BinanceCoin BEP20 BNB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="392">0 ICON ICX (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="393">0 Komodo KMD (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="394">0 BitTorrent BTTC (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="395">0 BAT BAT (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="396">0 Ontology ONT (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="397">0 Qtum QTUM (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="398">0 Chainlink LINK (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="399">0 Cosmos ATOM (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="400">0 Tezos XTZ (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="401">0 Polkadot DOT (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="402">0 Uniswap UNI (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="403">0 Ravencoin RVN (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="404">0 Solana SOL (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="405">0 VeChain VET (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="406">0 Shiba ERC20 SHIB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="407">0 Shiba BEP20 SHIB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="408">0 Algorand ALGO (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="409">0 Maker MKR (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="410">0 Avalanche AVAX (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="412">0 Decentraland MANA (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="413">0 Terra LUNA (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="414">0 NEAR Protocol NEAR (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="415">0 Cronos CRO (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="416">0 Toncoin TON (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="417">0 WebMoney WMZ (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="418">0 WebMoney WME (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="419">0 WebMoney WMX (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="420">0 Paymer USD (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="421">0 Perfect Money USD (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="422">0 Perfect Money EUR (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="423">0 Perfect Money BTC (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="424">0 PM e-Voucher USD (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="425">0 ЮMoney RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="426">0 QIWI RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="427">0 QIWI KZT (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="428">0 PayPal USD (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="429">0 PayPal RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="430">0 PayPal EUR (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="431">0 PayPal GBP (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="432">0 Advanced Cash USD (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="433">0 Advanced Cash RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="434">0 Advanced Cash EUR (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="435">0 Advanced Cash UAH (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="436">0 Advanced Cash KZT (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="437">0 Advanced Cash TRY (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="438">0 Payeer USD (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="439">0 Payeer RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="440">0 Payeer EUR (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="441">0 Skrill USD (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="442">0 Skrill EUR (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="443">0 Idram AMD (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="444">0 Paxum USD (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="445">0 Capitalist USD (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="446">0 Capitalist EUR (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="447">0 Capitalist RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="448">0 Neteller USD (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="449">0 Neteller EUR (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="450">0 PaySera USD (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="451">0 PaySera EUR (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="453">0 NixMoney USD (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="454">0 NixMoney EUR (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="456">0 Epay USD (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="457">0 Epay EUR (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="458">0 Alipay CNY (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="459">0 Payoneer USD (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="460">0 Счет телефона RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="461">0 Счет телефона UAH (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="473">0 Сбербанк RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="474">0 Сбербанк QR RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="475">0 Альфа-Банк RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="476">0 Альфа cash-in USD (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="477">0 Альфа cash-in RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="478">0 Тинькофф USD (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="479">0 Тинькофф RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="480">0 Тинькофф cash-in RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="481">0 Тинькофф QR RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="482">0 ВТБ RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="483">0 Русский Стандарт RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="484">0 Авангард RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="485">0 Промсвязьбанк RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="486">0 Газпромбанк RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="487">0 Кукуруза RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="488">0 Райффайзен RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="489">0 РНКБ RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="490">0 Открытие RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="491">0 Почта Банк RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="492">0 Россельхозбанк RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="493">0 Росбанк RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="494">0 МТС Банк RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="495">0 Хоум Кредит RUB (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="496">0 Приват 24 USD (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="497">0 Приват 24 UAH (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="498">0 Райффайзен UAH (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="499">0 Ощадбанк UAH (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="500">0 УкрСиббанк UAH (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="501">0 ПУМБ UAH (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="502">0 Монобанк UAH (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="504">0 Альфа-Банк UAH (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="505">0 Беларусбанк BYN (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="506">0 HalykBank KZT (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="507">0 Сбербанк KZT (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="508">0 ForteBank KZT (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="509">0 Kaspi Bank KZT (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="510">0 Jusan Bank KZT (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                    <option value="511">0 Visa/MasterCard USD (Комиссия платежной системы при выплате средств партнеру - 0%)</option>
+
+                                                </select>
+                                            </div>
+                                            <div class="pay_input fg">
+                                                <input type="text" class="pay_input_purse" name="account" value="">
+                                                <div class="pay_purse_link">
+                                                    <div class="pay_purse_link_ins">
+                                                        <div class="pay_purse_ul" style="display: none;">
+                                                            <div class="pay_purse_line ppl_0" data-purse="">Нет кошелька</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pay_right_col">
+                                            <input class="m-btn mbtn-accent" type="submit" formtarget="_top" disabled="disabled" value="Заказать">
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                </div>
+                                <div class="resultgo"></div>
+                            </form>
+
+                            <div class="paytable pntable_wrap">
+                                <div class="pntable_wrap_ins">
+                                    <div class="pntable_wrap_title">
+                                        <div class="pntable_wrap_title_ins display2">
+                                            Заявки
+                                        </div>
+                                    </div>
+                                    <div class="pntable">
+                                        <div class="pntable_ins">
+                                            <div class="adaptive_wrap profile-table" style="min-height: 100%;"><table class="has_adaptive_wrap not_adaptive"><thead><tr><th class="th_pay_date th1">Дата</th><th class="th_pay_account">Кошелек</th><th class="th_pay_sum">Сумма</th><th class="th_pay_sum_or">Сумма(USD)</th><th class="th_pay_status">Статус</th><th class="th_del_status th2"></th></tr></thead><tbody><tr><td colspan="6" class="td1 td2"><div class="no_items"><div class="no_items_ins">Данных нет</div></div></td></tr></tbody></table></div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="clear"></div>
+                        </div>
+
+
+
+
+
+
+
+                        <aside class="main__sidebar">
+                            <div class="profile-sidebar">
+
+    <div class="profile-sidebar__top">
+        <div class="container">
+            <div class="profile-sidebar__inner">
+
+
+                <div class="usve_widget verifyst_0">
+                    <div class="profile-sidebar__lk">
+                        <i class="header__lk-icon">
+                            <img src="//cryptospherebank.exchange/wp-content/themes/verstka/img/profile.svg" alt="">
+                        </i>
+                        <span class="header__lk-title">Не верифицирован</span>
+                    </div><a href="https://cryptospherebank.exchange/userverify/" class="profile-sidebar__btn m-btn mbtn-accent-outline">Пройти верификацию</a>
+
+                </div>
+                <!-- before discount -->
+                <div class="profile-sidebar__info">
+                    <div class="profile-sidebar__sale body-text2">Ваша скидка 0%</div>
+                    <div class="lang body-text2">
+
+                    </div>
+
+                </div>
+                <!-- after discount -->
+
+                <button class="burger mbtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="profile-sidebar__bottom-wrap">
+        <div class="profile-sidebar__bottom">
+            <div class="profile-sidebar__links">
+                <ul><li class="profile-sidebar__link "><a href="https://cryptospherebank.exchange/account-2/">Личный кабинет</a></li><li class="profile-sidebar__link current"><a href="https://cryptospherebank.exchange/security/">Настройки безопасности</a></li><li class="profile-sidebar__link "><a href="https://cryptospherebank.exchange/userwallets/">Ваши счета</a></li><li class="profile-sidebar__link "><a href="https://cryptospherebank.exchange/userxch/">Ваши операции</a></li><li class="profile-sidebar__link "><a href="https://cryptospherebank.exchange/request-exportxml.xml?lang=ru" target="_blank" rel="noreferrer noopener">XML-файл курсов</a></li><li class="profile-sidebar__link "><a href="https://cryptospherebank.exchange/request-exportjson.json?lang=ru" target="_blank" rel="noreferrer noopener">JSON-файл курсов</a></li><li class="profile-sidebar__link "><a href="https://cryptospherebank.exchange/paccount/">Партнёрский аккаунт</a></li><li class="profile-sidebar__link "><a href="https://cryptospherebank.exchange/promotional/">Рекламные материалы</a></li><li class="profile-sidebar__link "><a href="https://cryptospherebank.exchange/plinks/">Партнёрские переходы</a></li><li class="profile-sidebar__link "><a href="https://cryptospherebank.exchange/pexch/">Партнёрские обмены</a></li><li class="profile-sidebar__link "><a href="https://cryptospherebank.exchange/preferals/">Рефералы</a></li><li class="profile-sidebar__link "><a href="https://cryptospherebank.exchange/payouts/">Вывод партнёрских средств</a></li><li class="profile-sidebar__link "><a href="https://cryptospherebank.exchange/partnersfaq/">Партнёрский FAQ</a></li><li class="profile-sidebar__link "><a href="https://cryptospherebank.exchange/terms/">Условия участия в партнерской программе</a></li></ul>
+                <!--a href="" class="profile-sidebar__link">Личный кабинет</a>
+                <a href="" class="profile-sidebar__link">Настройки безопасности</a>
+                <a href="" class="profile-sidebar__link">Ваши счета</a>
+                <a href="" class="profile-sidebar__link">Ваши операции</a>
+                <a href="" class="profile-sidebar__link">TXT-файл курсов</a>
+                <a href="" class="profile-sidebar__link">XML-файл курсов</a>
+                <a href="" class="profile-sidebar__link">JSON-файл курсов</a>
+                <a href="" class="profile-sidebar__link">Партнерский аккаунт</a>
+                <a href="" class="profile-sidebar__link">Рекламные материалы</a>
+                <a href="" class="profile-sidebar__link">Партнерские переходы</a>
+                <a href="" class="profile-sidebar__link">Партнерские обмены</a>
+                <a href="" class="profile-sidebar__link">Рефералы</a>
+                <a href="" class="profile-sidebar__link">Вывод партнерских средств</a-->
+                <a href="https://cryptospherebank.exchange/premium_action-logout.html?meth=get&amp;yid=40372620d4a8&amp;ynd=0&amp;lang=ru" class="profile-sidebar__link profile-sidebar__link--exit exit_link">Выйти</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</div>
+
+                        </aside>
+
+
+                    </div>
+
+                </div>
+            </section>
+
+        </main>
+        <footer class="footer">
+            <div class="container">
+    <div class="footer__inner">
+        <a href="index.html" class="footer__logo logo hide-mob">
+            <img src="img/logo.svg" alt="">
+        </a>
+        <nav class="footer__nav">
+            <a href="" class="footer__nav-link hide-mob">Обмен</a>
+            <a href="" class="footer__nav-link hide-mob">Бонусы</a>
+            <a href="" class="footer__nav-link hide-mob">FAQ</a>
+            <a href="" class="footer__nav-link hide-mob">Отзывы</a>
+            <a href="" class="footer__nav-link hide-mob">Помощь</a>
+            <a href="" class="footer__nav-link">Правила обмена</a>
+            <a href="" class="footer__nav-link">Политика KYC/AML</a>
+        </nav>
+    </div>
+</div>
+
+        </footer>
+    </div>
+    <div class="modal" id="loginModal">
+    <div class="modal__dialog">
+
+        <form class="main-form main-form--request">
+    <h3 class="main-form__title display2">Войти</h3>
+    <fieldset class="fg">
+        <label>Email*:</label>
+        <input type="email">
+    </fieldset>
+    <fieldset class="fg">
+        <label>Пароль*:</label>
+        <input type="password">
+        <a href="" class="fg__link body-text2">Забыли пароль?</a>
+    </fieldset>
+    <button class="main-form__btn m-btn mbtn-accent">Войти</button>
+    <div class="main-form__hint body-text2">
+        Нет аккаунта?
+        <a href="">Зарегистрироваться</a>
+    </div>
+</form>
+
+
+        <div class="modal__content">
+            <a href="" class="modal__logo logo">
+                <img src="img/logo.svg" alt="">
+            </a>
+            <h2 class="modal__title">
+                Самые выгодные обменные курсы
+            </h2>
+        </div>
+    </div>
+</div>
+
+
+    <script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+
+</body>
+
+</html>
